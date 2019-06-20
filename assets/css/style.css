@@ -1,0 +1,571 @@
+body {
+  margin: 0;
+}
+/*HEADER*/
+#top {
+  border-bottom: #777777 solid 1px;
+  padding: 20px;
+  position: relative;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+/*CASEY BEAULAC - TEAL BOX*/
+#nameDiv {
+  display: inline;
+  background-color: #4aaaa5;
+  padding: 24px;
+  left: 177px;
+  position: relative;
+  margin: 0;
+}
+
+#name {
+  display: inline;
+  font-family: Georgia;
+  color: white;
+}
+/*-----------teal box end--------------*/
+
+/*NAV BAR*/
+#listDiv {
+  display: inline;
+  font-family: "Arial";
+  float: right;
+  color: #777777;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: #777777;
+}
+
+a:hover {
+  color: #4aaaa5;
+}
+
+li {
+  display: inline;
+  padding-right: 5px;
+}
+
+#aboutLink {
+  padding-right: 10px;
+  border-right: #777777 solid 2px;
+}
+#portfolioLink {
+  border-right: #777777 solid 2px;
+  padding-right: 10px;
+}
+/*------------nav bar end-----------------*/
+/*------------------header end------------------------*/
+
+/*main content div*/
+#mainDivA {
+  background-image: url(../images/floor-tile.png);
+  height: 600px;
+}
+
+#mainDivP {
+  background-image: url(../images/floor-tile.png);
+  height: 940px;
+}
+
+#mainDivC {
+  background-image: url(../images/floor-tile.png);
+  height: 620px;
+}
+
+/*ABOUT-CONTACT-PORTFOLIO BOX*/
+#boxTitle {
+  color: #4aaaa5;
+  font-family: Georgia;
+  padding-bottom: 20px;
+  border-bottom: #dddddd solid 4px;
+}
+
+#aboutDiv {
+  box-sizing: border-box;
+  top: 30px;
+  border: #dddddd solid 1px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 960px;
+  font-family: "Arial";
+  position: relative;
+  color: #777777;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+#aboutDivC {
+  box-sizing: border-box;
+  top: 30px;
+  border: #dddddd solid 1px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 960px;
+  font-family: "Arial";
+  position: relative;
+  color: #777777;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+#aboutDivP {
+  box-sizing: border-box;
+  top: 30px;
+  border: #dddddd solid 1px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 960px;
+  font-family: "Arial";
+  position: relative;
+  color: #777777;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+/*-----------------------------------------ABOUT----------------------------------------*/
+/*picture div*/
+#imageDiv {
+  display: inline;
+}
+#catPic {
+  width: 150px;
+}
+
+/*text*/
+#paragraph1Div {
+  display: inline;
+  padding-left: 40px;
+  width: 700px;
+  position: absolute;
+  line-height: 1.6;
+}
+
+#paragraph2Div {
+  line-height: 1.6;
+}
+
+/*------------------------------------------CONTACT----------------------------------------*/
+
+#nameTxt {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Arial";
+}
+
+#emailTxt {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Arial";
+}
+
+#messageTxt {
+  width: 100%;
+  height: 200px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Arial";
+}
+
+#submitBtn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  border-radius: 20px;
+  font-family: "Arial";
+}
+
+/*-----------------------------------------Portfolio-----------------------------------------------*/
+#pictureDiv1 {
+  margin-bottom: 100px;
+  float: left;
+  position: relative;
+}
+#libraryTag {
+  box-sizing: border-box;
+  position: absolute;
+  color: #ffffff;
+  width: 200px;
+  padding: 5px;
+  font-family: Georgia;
+  text-align: center;
+  background-color: #4aaaa5;
+  bottom: 3px;
+  font-weight: lighter;
+  transition: 0.2s;
+}
+#libraryTag:hover {
+  font-size: x-large;
+}
+
+#libraryPic {
+  width: 200px;
+  height: 135px;
+  padding-right: 100px;
+}
+/*---------------------------------*/
+#pictureDiv2 {
+  margin-bottom: 100px;
+  float: right;
+  position: relative;
+  right: 150px;
+}
+
+#schoolTag {
+  box-sizing: border-box;
+  position: absolute;
+  color: #ffffff;
+  width: 200px;
+  padding: 5px;
+  font-family: Georgia;
+  text-align: center;
+  font-weight: lighter;
+  bottom: 3px;
+  background-color: #4aaaa5;
+  transition: 0.2s;
+}
+#schoolTag:hover {
+  font-size: x-large;
+}
+
+#schoolPic {
+  width: 200px;
+  height: 135px;
+  padding-right: 200px;
+}
+/*---------------------------------*/
+#pictureDiv3 {
+  margin-bottom: 100px;
+  float: left;
+  position: relative;
+}
+#hangmanTag {
+  box-sizing: border-box;
+  position: absolute;
+  color: #ffffff;
+  width: 200px;
+  padding: 5px;
+  font-weight: lighter;
+  font-family: Georgia;
+  text-align: center;
+  bottom: 3px;
+  background-color: #4aaaa5;
+  transition: 0.2s;
+}
+#hangmanTag:hover {
+  font-size: x-large;
+}
+
+#hangmanPic {
+  width: 200px;
+  height: 135px;
+  padding-right: 200px;
+}
+/*---------------------------------*/
+#pictureDiv4 {
+  margin-bottom: 100px;
+  float: right;
+  position: relative;
+  right: 150px;
+}
+#leaseTag {
+  box-sizing: border-box;
+  position: absolute;
+  color: #ffffff;
+  width: 200px;
+  padding: 5px;
+  font-family: Georgia;
+  text-align: center;
+  font-weight: lighter;
+  background-color: #4aaaa5;
+  bottom: 3px;
+  transition: 0.2s;
+}
+
+#leaseTag:hover {
+  font-size: x-large;
+}
+
+#leasePic {
+  width: 200px;
+  height: 135px;
+  padding-right: 200px;
+}
+/*---------------------------------*/
+#pictureDiv5 {
+  margin-bottom: 100px;
+  float: left;
+  position: relative;
+}
+#hospitalTag {
+  box-sizing: border-box;
+  position: absolute;
+  color: #ffffff;
+  width: 200px;
+  padding: 5px;
+  font-weight: lighter;
+  font-family: Georgia;
+  text-align: center;
+  background-color: #4aaaa5;
+  bottom: 3px;
+  transition: 0.2s;
+}
+
+#hospitalTag:hover {
+  font-size: x-large;
+}
+
+#hospitalPic {
+  width: 200px;
+  height: 135px;
+  padding-right: 200px;
+}
+/*---------------------------------*/
+#pictureDiv6 {
+  margin-bottom: 100px;
+  float: right;
+  position: relative;
+  right: 150px;
+}
+#atmTag {
+  box-sizing: border-box;
+  position: absolute;
+  color: #ffffff;
+  font-weight: lighter;
+  width: 200px;
+  padding: 5px;
+  font-family: Georgia;
+  text-align: center;
+  background-color: #4aaaa5;
+  bottom: 3px;
+  transition: 0.2s;
+}
+
+#atmTag:hover {
+  font-size: x-large;
+}
+
+#atmPic {
+  width: 200px;
+  height: 135px;
+  padding-right: 200px;
+}
+
+/*ABOUT-CONTACT-PORTFOLIO BOX end*/
+
+/*----------------------------------main content div end---------------------------------*/
+
+#bottom {
+  background-color: #666666;
+  padding: 10px;
+  text-align: center;
+  bottom: 0;
+  color: #dddddd;
+  width: 100%;
+  position: fixed;
+  border-top: #4aaaa5 solid 8px;
+}
+
+@media screen and (max-width: 980px) {
+  #nameDiv {
+    left: 0;
+  }
+  #aboutDiv {
+    width: 900px;
+  }
+
+  #aboutDivC {
+    width: 900px;
+  }
+
+  #aboutDivP {
+    width: 900px;
+  }
+
+  #paragraph1Div {
+    width: 600px;
+    font-size: 15px;
+  }
+  #paragraph2Div {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #nameDiv {
+    left: 0;
+  }
+
+  #aboutDiv {
+    width: 680px;
+  }
+  #aboutDivC {
+    width: 680px;
+  }
+  #aboutDivP {
+    width: 680px;
+    height: 760px;
+  }
+  #paragraph1Div {
+    width: 440px;
+    font-size: 14.2px;
+  }
+  #paragraph2Div {
+    font-size: 14.2px;
+  }
+
+  #schoolPic {
+    padding-right: 0;
+  }
+  #leasePic {
+    padding-right: 0;
+  }
+
+  #pictureDiv4 {
+    top: -239px;
+  }
+  #pictureDiv5 {
+    bottom: 240px;
+  }
+  #pictureDiv6 {
+    bottom: 479px;
+  }
+
+  #atmPic {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #mainDivA {
+    background-image: url(../images/floor-tile.png);
+    height: 100%;
+  }
+  #mainDivP {
+    background-image: url(../images/floor-tile.png);
+    height: 100%;
+  }
+
+  #top {
+    background-color: #4aaaa5;
+    position: static;
+    height: 70px;
+  }
+  #nameDiv {
+    left: 177px;
+  }
+  #listDiv {
+    float: none;
+    left: 175px;
+    position: relative;
+  }
+
+  #aboutDiv {
+    width: 580px;
+    height: 1450px;
+  }
+  #aboutDivP {
+    width: 580px;
+    height: 2400px;
+  }
+  #aboutDivC {
+    width: 580px;
+  }
+  #catPic {
+    width: 500px;
+    display: block;
+  }
+
+  #paragraph1Div {
+    position: relative;
+    float: left;
+    padding-left: 0;
+    width: 520px;
+  }
+
+  #pictureDiv1 {
+    left: 50px;
+    width: 400px;
+  }
+  #libraryPic {
+    width: 400px;
+    height: 270px;
+  }
+  #libraryTag {
+    width: 400px;
+  }
+  #pictureDiv2 {
+    float: none;
+    left: 50px;
+    right: 0;
+  }
+  #schoolPic {
+    width: 400px;
+    height: 270px;
+  }
+  #schoolTag {
+    width: 400px;
+  }
+  #pictureDiv3 {
+    left: 50px;
+    margin-bottom: 350px;
+  }
+  #hangmanPic {
+    width: 400px;
+    height: 270px;
+  }
+  #hangmanTag {
+    width: 400px;
+  }
+  #pictureDiv4 {
+    left: 50px;
+    right: 0;
+    float: none;
+  }
+  #leasePic {
+    width: 400px;
+    height: 270px;
+  }
+  #leaseTag {
+    width: 400px;
+  }
+  #pictureDiv5 {
+    left: 50px;
+    margin-bottom: 350px;
+  }
+  #hospitalPic {
+    width: 400px;
+    height: 270px;
+  }
+  #hospitalTag {
+    width: 400px;
+  }
+  #pictureDiv6 {
+    left: 50px;
+    float: none;
+    right: 0;
+  }
+  #atmPic {
+    width: 400px;
+    height: 270px;
+  }
+  #atmTag {
+    width: 400px;
+  }
+}
